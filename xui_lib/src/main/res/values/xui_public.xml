@@ -3,7 +3,7 @@
     <!--对外开放的资源-->
     <!--string-->
     <public name="default_app_font_path" type="string" />
-    <public name="xui_tip_input_error" type="string" />
+    <!--<public name="xui_tip_input_error" type="string" />-->
     <public name="xui_tip_error_message" type="string" />
     <public name="xui_tip_empty_message" type="string" />
     <public name="xui_tip_no_network" type="string" />
@@ -147,13 +147,13 @@
     <public name="RoundButton.Gray" type="style" />
     <public name="EditText.Material" type="style" />
     <public name="EditText.Normal" type="style" />
-    <public name="NormalLinearLayoutContainer" type="style" />
+    <!--<public name="NormalLinearLayoutContainer" type="style" />-->
     <public name="Material.SpinnerStyle" type="style" />
     <public name="SpinnerStyle" type="style" />
 
-    <public name="AppBaseTheme" type="style" />
-    <public name="AppRootTheme" type="style" />
-    <public name="AppConfigTheme" type="style" />
+    <!--<public name="AppBaseTheme" type="style" />-->
+    <!--<public name="AppRootTheme" type="style" />-->
+    <!--<public name="AppConfigTheme" type="style" />-->
     <public name="XUITheme.Launch" type="style" />
     <public name="XUITheme.Tablet" type="style" />
     <public name="XUITheme.Tablet.Big" type="style" />

@@ -120,11 +120,11 @@ Basic topic type：
 
 ```
 <style name="AppTheme" parent="XUITheme.Phone">
-     <!-- Customize your own theme style --> 
+    <!-- Customize your own theme style -->
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
- </style>
+</style>
 
 ```
 

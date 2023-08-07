@@ -165,8 +165,8 @@ public class ShineView extends View {
         mCenterAnimX = location[0] + shineButton.getWidth() / 2;
         mCenterAnimY = location[1] + shineButton.getHeight() / 2;
 
-        if (shineButton.getWindow() != null) {
-            View decor = shineButton.getWindow().getDecorView();
+        if (shineButton.getWindow2() != null) {
+            View decor = shineButton.getWindow2().getDecorView();
             mCenterAnimX = mCenterAnimX - decor.getPaddingLeft();
             mCenterAnimY = mCenterAnimY - decor.getPaddingTop();
         }

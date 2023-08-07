@@ -825,18 +825,18 @@
     *                 字体设置                      *
     **********************************************-->
     <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
-        <item name="fontPath">@string/default_app_font_path</item>
+        <!--<item name="fontPath">@string/default_app_font_path</item>-->
         <item name="android:textDirection">locale</item>
     </style>
 
     <style name="TextAppearance.FontPath" parent="TextAppearanceBase">
-        <item name="fontPath">@string/default_app_font_path</item>
+        <!--<item name="fontPath">@string/default_app_font_path</item>-->
         <item name="android:textDirection">locale</item>
     </style>
 
     <!-- Custom Class Styles -->
     <style name="TextField" parent="android:Widget.Holo.Light.TextView">
-        <item name="fontPath">@string/default_app_font_path</item>
+        <!--<item name="fontPath">@string/default_app_font_path</item>-->
         <item name="android:textDirection">locale</item>
     </style>
 

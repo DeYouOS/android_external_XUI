@@ -257,9 +257,9 @@ public class ShineButton extends PorterShapeImageView implements Checkable {
     }
 
     public void showAnim() {
-        if (getWindow() != null) {
+        if (getWindow2() != null) {
             ShineView shineView = new ShineView(getContext(), this, mShineParams);
-            ViewGroup rootView = (ViewGroup) getWindow().getDecorView();
+            ViewGroup rootView = (ViewGroup) getWindow2().getDecorView();
             if (mIsDialog) {
                 View innerView = rootView.findViewById(Window.ID_ANDROID_CONTENT);
                 rootView.addView(shineView, new ViewGroup.LayoutParams(innerView.getWidth(), innerView.getHeight()));
@@ -272,12 +272,12 @@ public class ShineButton extends PorterShapeImageView implements Checkable {
 
     public void removeView(View view) {
         if (getWindow() != null) {
-            final ViewGroup rootView = getWindow().findViewById(Window.ID_ANDROID_CONTENT);
+            final ViewGroup rootView = getWindow2().findViewById(Window.ID_ANDROID_CONTENT);
             rootView.removeView(view);
         }
     }
 
-    public Window getWindow() {
+    public Window getWindow2() {
         if (mWindow != null) {
             return mWindow.get();
         }
